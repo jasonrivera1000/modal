@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Página con Modal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- Tarjetas con imágenes -->
+    <div class="card">
+      <img src="arbol.webp" alt="Imagen 1" />
+      <h2>Título</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <button class="leer-mas" data-index="0">Leer más</button>
+    </div>
+    <div class="card">
+      <img src="cuervo.webp" alt="Imagen 2" />
+      <h2>Título</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <button class="leer-mas" data-index="1">Leer más</button>
+    </div>
+    <div class="card">
+      <img src="descargar.webp" alt="Imagen 3" />
+      <h2>Título</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <button class="leer-mas" data-index="2">Leer más</button>
+    </div>
+    <div class="card">
+      <img src="esqueleto.webp" alt="Imagen 4" />
+      <h2>Título</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <button class="leer-mas" data-index="3">Leer más</button>
+    </div>
+    <div class="card">
+      <img src="mano.jpg" alt="Imagen 5" />
+      <h2>Título</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <button class="leer-mas" data-index="4">Leer más</button>
+    </div>
+    <div class="card">
+      <img src="OIP.webp" alt="Imagen 6" />
+      <h2>Título</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <button class="leer-mas" data-index="5">Leer más</button>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <img id="modal-img" src="" alt="Imagen ampliada" />
+      <div class="modal-text">
+        <h2 id="modal-title">Título</h2>
+        <p id="modal-paragraph">Texto corto...</p>
+        <p id="modal-extra">Texto extra que antes no se veía...</p>
+      </div>
+      <button id="cerrar">Cerrar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
